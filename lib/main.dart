@@ -25,11 +25,14 @@ class Category {
   final String imagePath;
 }
 
+
+
 const categories = [
   Category('Makanan', 'assets/images/makanan.png'),
   Category('Transportasi', 'assets/images/transportasi.png'),
   Category('Belanja', 'assets/images/belanja.png'),
   Category('Hiburan', 'assets/images/hiburan.png'),
+  Category('Kesehatan', 'assets/images/kesehatan.png'),
 ];
 
 class Expense {
